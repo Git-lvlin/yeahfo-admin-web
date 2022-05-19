@@ -1,0 +1,41 @@
+.header {
+  .card {
+    :global {
+      .ant-pro-card-body {
+        padding: 5px 0;
+        text-align: center;
+      }
+    }
+  }
+  .top {
+    :global {
+      .ant-pro-card-body {
+        padding: 5px 0;
+        text-align: center;
+        div {
+          line-height: 100%;
+        }
+      }
+    }
+  }
+}
+
+.normal {
+  :global {
+    .ant-pro-card-body-column {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  .card {
+    :global {
+      .ant-pro-card-body {
+        padding: 15px 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+      }
+    }
+  }
+}

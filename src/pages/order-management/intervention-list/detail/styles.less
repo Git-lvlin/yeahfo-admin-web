@@ -1,0 +1,175 @@
+.interventionDetail {
+  background-color: #fff;
+  padding: 20px 40px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .detailTag{
+    font-size: 18px;
+    span {
+      margin-left: 8px;
+      font-size: 16px;
+    }
+  }
+  .detailTitle {
+    font-size: 28px;
+    margin: 30px 20px 0;
+    color: #333;
+    font-weight: 700;
+  }
+}
+.opinion {
+  margin-bottom: 20px;
+}
+.timelineWarp{
+  height: auto;
+  max-height: 600px;
+  overflow-y: auto;
+  padding: 10px 20px 0 !important;
+  .time {
+    margin-right: 20px;
+    color: rgb(12, 90, 255);
+  }
+  &::-webkit-scrollbar {
+    width : 10px;
+    height: 1px;
+    }
+  &::-webkit-scrollbar-thumb {
+    border-radius   : 10px;
+    background-color: rgba(12, 90, 255, .7);
+    background-image: linear-gradient(
+      45deg,
+      rgba(255, 255, 255, 0.2) 25%,
+      transparent 25%,
+      transparent 50%,
+      rgba(255, 255, 255, 0.2) 50%,
+      rgba(255, 255, 255, 0.2) 75%,
+      transparent 75%,
+      transparent
+    );
+  }
+  &::-webkit-scrollbar-track {
+    box-shadow   : inset 0 0 5px rgba(0, 0, 0, 0.2);
+    background   : #ededed;
+    border-radius: 10px;
+  }
+}
+
+.description {
+  margin-top: 30;
+  background: #fff;
+  padding: 20px;
+}
+.tabelRow {
+  padding: 0 20px 20px;
+  margin-top: -20px;
+  .item{
+    border-top: none;
+    font-size: 16px;
+  }
+  .itemOpinion {
+    margin-bottom: 30px;
+    span {
+      margin-left: 10px;
+    }
+  }
+  .itemImg {
+    display: flex;
+    .itemTxt {
+      margin-right: 10px;
+      font-size: 16px;
+    }
+  }
+}
+
+:scope .ant-image {
+  margin-right: 10px;
+}
+
+:scope .ant-pro-table-list-toolbar-title {
+  font-weight: bold;
+}
+
+:scope .ant-descriptions-bordered .ant-descriptions-item-label {
+  width: 200px;
+  font-size: 16px;
+  border-color: #f0f0f0;
+  background-color: rgba(245,245,245,.5);
+}
+:scope .ant-pro-table-list-toolbar-title {
+  font-weight: bold;
+}
+.summary {
+  padding: 10px;
+  line-height: 40px;
+  .summaryItem {
+    font-size: 16px;
+    .summaryItemText {
+      margin-left: 10px;
+      color: red;
+    }
+  }
+  .summaryImg {
+    display: flex;
+    .summaryItemTxt {
+      margin-right: 10px;
+      font-size: 16px;
+    }
+    .summaryItemPic {
+      margin-top: 10px;
+    }
+  }
+}
+
+.goodsInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  .goodsContent {
+    width: 240px;
+    margin: 18px 0;
+    .skuName {
+      color: #f00;
+    }
+  }
+}
+
+.negotiation {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 20px 0;
+  margin-bottom: -15px;
+}
+.empty {
+  background: #fff;
+  margin: 10px 0 0;
+  padding-top: 10px;
+}
+.warp {
+  padding: 20px;
+  margin: 20px 0 0;
+  background: #fff;
+  display: flex;
+  .avatar {
+    margin-right: 20px;
+  }
+  .list {
+    line-height: 25px;
+    .name {
+      color: red;
+    }
+    .content {
+      padding-top: 10px;
+      .text {
+        margin-bottom: 10px;
+        font-size: 16px;
+      }
+    }
+  }
+}
+.btn {
+  padding: 0 20px 20px;
+  background-color: #fff;
+}

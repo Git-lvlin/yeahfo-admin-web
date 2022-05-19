@@ -1,0 +1,62 @@
+.pieTitle {
+  text-align: center;
+  font-size: 16px;
+}
+
+.title {
+  font-size: 16px;
+  margin-right: 120px;
+  padding-left: 14px;
+}
+
+.salesExtra {
+  display: inline-block;
+  margin-right: 24px;
+  a {
+    margin-left: 24px;
+    color: rgba(0, 0, 0, 0.85);
+    &:hover {
+      color: #1890ff;
+    }
+    &.currentDate {
+      color: #1890ff;
+    }
+  }
+}
+
+@media screen and (max-width: 712px) {
+  .salesExtraWrap {
+    display: none;
+  }
+
+  .salesCard {
+    :global {
+      .ant-tabs-content {
+        padding-top: 30px;
+      }
+    }
+  }
+}
+
+.goodsTable {
+  margin-top: 30px;
+}
+
+.summary {
+  position: relative;
+  z-index: 666;
+  margin: -40px 0 0 20px;
+  width: 600px;
+  font-weight: 900;
+  div {
+    display: inline-block;
+    &:nth-of-type(1),
+    &:nth-of-type(2) {
+      margin-right: 30px;
+    }
+    span {
+      margin-left:0;
+      color: #D9001B;
+    }
+  }
+}

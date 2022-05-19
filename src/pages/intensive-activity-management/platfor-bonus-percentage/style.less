@@ -1,0 +1,56 @@
+.ul {
+  width: 400px;
+  padding: 0;
+  position: relative;
+  max-height: 500px;
+  overflow: auto;
+}
+
+.li {
+  border-bottom: 1px solid #f0f0f0;
+  list-style: none;
+  background: #fff;
+  padding: 10px 20px;
+  position: relative;
+  display: flex;
+  align-items: center;
+
+  .gcName {
+    width: 60px;
+  }
+
+  .info {
+    margin-left: 15px;
+  }
+
+  img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+}
+
+.header {
+  height: 40px;
+  line-height: 40px;
+  background: #fff;
+  border-bottom: 1px solid #f0f0f0;
+  padding: 0 20px;
+}
+
+.actions {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.line_feed{
+  width: 100px;
+  word-break: break-all;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
